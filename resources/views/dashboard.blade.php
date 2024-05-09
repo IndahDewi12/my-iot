@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
         <div class="container">
-            <a class="navbar-brand" href="#">My-IoT</a>
+            <a class="navbar-brand" href="/dashboard">My-IoT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,16 +20,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                        <a class="nav-link active" aria-current="page" href="/dashboard">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Devices</a>
+                        <a class="nav-link" href="/devices">Devices</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rules</a>
+                        <a class="nav-link" href="/rules">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Users</a>
+                        <a class="nav-link" href="/users">Users</a>
                     </li>
                 </ul>
             </div>
